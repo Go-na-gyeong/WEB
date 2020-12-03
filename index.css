@@ -1,35 +1,4 @@
-*{
-    margin: 1px;
-    padding: 10px;
-}
-#contents{
-    border: 3px solid #fc8ba9;
-    width: 500px;
-    text-align: center;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    margin: 0.5em;
-}
 
-.title{
-    font-size: 12px;
-    font-weight: thin;
-    }
-
-#top{
-    margin-right: auto;
-    margin-left: auto;
-    width:400px;
-    height: 230px;
-}
-
-#bottom{
-    margin-right: auto;
-    margin-left: auto;
-    width:400px;
-    height: 100px;
-    
-}
 
 ul.style{
     list-style: none;
@@ -47,6 +16,45 @@ a:hover, a:active{
     color: #f55d9e;
     border-bottom-style: solid;
 }
+
+
+.header{
+    width: 1250px;
+    height:650px;
+    position: relative;
+    overflow: hidden;
+    padding: 200;
+    margin: auto;
+    
+}
+
+
+.index li{
+    position: absolute;
+    right: 0;
+    top:0;
+    opacity: 1;
+    animation: slide 12s ease infinite forwards;
+}
+
+.index li: nth-child(1){
+    opacity:1;
+    z-index: 3;
+}
+
+.index li: nth-child(2){
+    z-index: 3;
+    animation-delay: 4s;
+}
+
+@keyframes slide{
+    0%{opacity: 1; left: 0;}
+    33.33%{opacity: 0.5; left: -120%}
+    34%{opacity: 0;}
+    66.66%{left: 0; opacity: 0;}
+    100%{opacity: }
+}
+
 
 footer{
      width: 100%;
