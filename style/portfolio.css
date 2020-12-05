@@ -6,6 +6,8 @@
 
 body{
     font-family: "맑은 고딕", "고딕", "굴림"
+   
+
 }
 
 header{
@@ -42,6 +44,7 @@ nav ul li{
 nav ul li a{
     color: #5d0f0f;
     text-decoration: none;
+    
 }
 
 p{
@@ -142,7 +145,11 @@ body{
 
 .maincol-container{
     margin-left: 0px;
+    
 }
+.a{line-height:160%;}
+
+.b{line-height:160%;}
 
 
 
