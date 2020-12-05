@@ -59,16 +59,14 @@ section {
 
 footer{
      width: 100%;
+    position: absolute;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0;
     padding:10px;
     background-color: #c79f9f;
     color:white;
-    text-align: : center;
-    
-}
-
+    text-align: : center;}
 
 
 
