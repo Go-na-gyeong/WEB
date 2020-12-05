@@ -1,10 +1,12 @@
 .navbar_menu li:hover{
-    background-color: #e8a9ae;
+    background-color: #f8b9be;
     border-radius: 12px;}
 
 
 
 body{
+    display: flex;
+    flex-direction: column;
     font-family: "맑은 고딕", "고딕", "굴림"
 }
 
@@ -87,6 +89,9 @@ header{
 
 body{
     font-family: 서울남산 장체L;
+    margin:0;
+   padding:0;
+   height:100%;
 }
 
 
@@ -96,8 +101,8 @@ body{
 .main-container{
     overflow: hidden;
     padding 0 0 40px 0;
-    width:1300px;     /* 변경된 부분 */
-    margin: 0 auto;    /* 변경된 부분 */
+    width:1300px;  
+    margin: 0 auto;   
 }
 
 .sidebar{
